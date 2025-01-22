@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
   <!-- =======================================================
   * Template Name: iPortfolio
@@ -34,6 +35,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script>
+    $(document).ready(function(){
+        $(".filter-product").hide();
+        $(".filter-branding").hide();
+        $(".filter-books").hide();
+    });
+  </script>
 </head>
 
 <body class="index-page">
@@ -52,11 +60,11 @@
     </a>
 
     <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+      <a href="https://www.instagram.com/comrade_7__/"  target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+      <!-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
+      <a href="https://in.linkedin.com/in/pravin-kumar-512185230" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
@@ -136,7 +144,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Showcasing my technical expertise and proficiency in tools and technologies essential for developing efficient and scalable solutions.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
